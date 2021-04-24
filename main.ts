@@ -8,7 +8,7 @@ input.onSound(DetectedSound.Loud, function () {
     }
 })
 let TURNONMICROPHONE = 0
-input.setSoundThreshold(SoundThreshold.Loud, 255)
+input.setSoundThreshold(SoundThreshold.Loud, 78)
 basic.forever(function () {
 	
 })
